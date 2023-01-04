@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 33px auto;
+    background-color: rgb(0, 23, 85);
+    color: white;
+    display: flex;
+    width: 500px;
+    height: 320px;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.guest, .home{
+    margin: 0px 20px;
+
+}
+#home--btn, #guest--btn{
+    width: 155px;
+    height: 100px;
+    margin: 15px;
+    background-color: black;
+    color:red;
+    font-size: 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 7px;
+}
+.operate{
+    width: 170px;
+    height: 55px;
+    margin-right: 0px;
+    padding-left: 7px;
+    
+}
+.operate > button{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    background-color: transparent;
+    font-size: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: rgb(219, 219, 219);
+    
+    
+
+}
+.operate > button:active{
+    background-color: antiquewhite;
+    transition-duration: .3s;
+}
